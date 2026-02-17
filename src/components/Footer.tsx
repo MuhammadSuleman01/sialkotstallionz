@@ -40,7 +40,7 @@ const Footer = () => {
         const updatedEmails = [...storedEmails, email]
         localStorage.setItem('subscribedEmails', JSON.stringify(updatedEmails))
 
-        toast.success("Subscribed successfully 🎉");
+        toast.success("Subscribed Successfully 🎉");
         setEmail('')
     }
     return (
