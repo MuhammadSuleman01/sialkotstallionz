@@ -155,7 +155,7 @@ const Footer = () => {
                         <div className='flex-col'>
                         <input
                             type="email"
-                            placeholder="Enter email to sign up"
+                            placeholder="Enter email to subscribe"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             className="bg-[#FFFFFF] rounded text-[#000000] px-2 focus:outline-none font-normal text-[12px] h-[34px] w-[215px] sm:w-[145px] lg:w-[215px] border"
