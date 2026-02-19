@@ -8,6 +8,9 @@ import { ToastContainer } from "react-toastify";
 export const metadata: Metadata = {
   title: "Sialkot Stallionz",
   description: "Official website of Sialkot Stallionz, the premier cricket team representing Sialkot in domestic and international tournaments.",
+  icons: {
+    icon: '/Favicon.png',
+  },
 };
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
